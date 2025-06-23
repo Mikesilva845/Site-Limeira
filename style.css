@@ -9,13 +9,13 @@
 
 body{
     font-family:'Poppins', sans-serif;
-    
 }
+
 
 
 main{
     width: 1200px;
-    margin: 0 auto 0 auto; 
+    margin: 0 auto 0 auto;
 }
 
 header{
@@ -54,7 +54,11 @@ header{
     display: flex;
     justify-content: start;
     gap: 1.5rem;
-    margin-top: 25px;
+    margin-top: 25px; 
+    
+    img{
+        border-radius: 5%;
+    }
 
     h2{
         text-align: center;
@@ -66,6 +70,10 @@ header{
     justify-content: end;
     gap: 1.5rem;
     margin-top: 25px;
+
+    img{
+        border-radius: 5%;
+    }
 
     h2{
         text-align: center;
@@ -121,7 +129,11 @@ a:hover{
     display: flex ;
     justify-content: center;
     margin-bottom: 35px;
-    gap: 30px;  
+    gap: 30px; 
+    img{
+        border-radius: 5%;
+    }
+
     h2{
         text-align: center;
     }
@@ -152,6 +164,7 @@ a:hover{
 .tabela th:nth-child(3),
 .tabela td:nth-child(3){
     text-align: end;
+
 }
 
 
@@ -195,7 +208,7 @@ table{
 
 .tabela2 th:nth-child(3),
 .tabela2 td:nth-child(3){
-    text-align: end;
+    text-align: center;
 }
 
 .tabela2 th:nth-child(4),
@@ -217,3 +230,180 @@ table{
     }
 }
 
+.maps{
+    h3{
+        text-align: center;
+    }
+
+    iframe{
+        border-radius: 5%;
+        margin-top: 60px;
+        width: 100%;
+        height: 60vh;
+    }
+}
+
+.futebol{
+    display: flex;
+    
+
+    h3{
+        margin-left: 30px;
+    }
+
+    li{
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        margin-top: 20px;
+    }
+
+    iframe{
+        border-radius: 5%;
+    }
+}
+
+.basquete{
+    display:flex;
+    margin-top: 30px;
+    
+    ul{
+        margin-top: 20px; 
+    }
+
+
+    iframe{
+        margin-left: 20px;
+        border-radius: 5%;
+    }
+}
+
+
+.volei{
+    display: flex;
+    margin-top: 30px;
+
+    h3{
+        margin-left: 40px;
+        margin-bottom: 15px;
+    }
+
+    li{
+        margin-left: 40px;
+        margin-bottom: 20px
+    }
+
+    iframe{
+        border-radius: 5%;
+    }
+}
+
+
+.form{
+    text-align: center;
+    margin-top: 10px;
+    background-color: #2179a0;
+    border-radius: 5px;
+
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        transform: translateY(-25px);
+    }
+
+}
+ .contato{
+    display: flex;
+    justify-content: space-between ;
+    div{                        
+        flex-basis: 45%;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+    div:last-child{       
+        iframe{
+            width: 100%;
+            height: 80vh ;
+        }
+    }
+
+    label{
+        display: block;
+        text-transform: uppercase; 
+        font-weight: bold;
+        font-size: .9rem;
+        margin-top: 20px;
+        color: #555;
+        
+    }
+
+    input[type=text],input[type=email],textarea{    
+        padding: 10px;
+        width: 90%;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+    }
+
+    select{
+        padding: 6px;
+        border: 1px solid #bbb;
+        border-radius: 4px;     
+    }
+
+    input[type=checkbox]{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+    input[type=submit]{
+        border-style: none;                        
+        background-color: #3b5998;
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 5px;
+        cursor: pointer;                          
+    }
+
+    input[type=submit]:hover{                     
+        background-color: #000;
+    }
+}
+
+
+
+
+@media screen and (max-width: 800px){
+
+    .esporte{
+        align-items: center; 
+        iframe{
+            width: 100%;
+           
+            
+        }
+    }
+
+    .destaque{
+        flex-wrap: wrap;
+    }
+
+    .redes-sociais{
+        margin-left: 30px;
+
+    
+
+    
+
+}
+
+
+    main{
+        width: 100%;
+    }
+
+}

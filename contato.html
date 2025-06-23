@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site limeira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h2>SITE<br>LIMEIRA</h2>
+            <img src="imagens/logo.png" alt="Prefeitura de limeira">
+        </div>
+        
+        <section class="redes-sociais" >
+            <h4>Siga o Site Limeira</h4>
+        
+            <div class="icons" >
+                <a href="https://www.youtube.com/c/preflimeira" target="_blank"><i class="bi bi-youtube"></i> </a>
+                <a href="https://www.instagram.com/prefeituralimeira/" target="_blank"><i class="bi bi-instagram"></i>  </a>
+                <a href="https://www.facebook.com/prefeituralimeira" target="_blank"><i class="bi bi-facebook"></i> </a>
+            </div>
+
+            <section class="form" >
+                <a href="contato.html">Entrar em contato</a>
+            </section>
+
+        </section>
+        
+    </header>
+
+    <div class="destaque">
+        <a href="index.html">Home</a>
+        <a href="municipio.html">Município</a>
+        <a href="tabeladedistancias.html">Tabela de distâncias</a>
+        <a href="localizacao.html">Localizção</a>
+        <a href="pontosturísticos.html">Pontos turísticos</a>
+        <a href="esporte.html">Esporte</a>
+        <a href="comerciolocal.html">Comércio local</a>
+    </div>
+
+    <main>
+        <section class="home">
+            <h3>Entre em Contato</h3>
+            <p>Entre em contato conosco preenchendo o formulário abaixo. Envie sua dúvida, sugestão ou mensagem</p>
+        </section>
+
+        <section class="contato" >
+            <div>
+                <form action="" method="post" name="form1" id="form1">
+                    <div>
+                        <label for="">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div>
+                        <label for="">E-mail</label>
+                        <input type="email" id="correio-eletronico" name="correio-eletronico" required>
+                    </div>
+                    <div>
+                        <label for="">Sexo</label>
+                        <input type="radio" id="masculino" name="sexo" value="masc">Masculino
+                        <input type="radio" id="feminio" name="sexo" value="fem">Feminio
+                    </div>
+                    <div>
+                        <label for="">Assunto</label>
+                        <select name="assunto" id="assunto">
+                            <option></option>
+                            <option>Critica</option>
+                            <option>Duvida</option>
+                            <option>Sugestão</option>
+                            <option>Elogio</option>
+                            <option>Informação</option>
+                            <option>Outros</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="">Comentario</label>
+                        <textarea name="comentario" id="comentario" rows="6"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="lgpd" id="lgpd" value="sim">
+                        Autorizo o uso dos dados de acordo com a <a href="#">politica de privacidade</a>
+                    </div>
+                    <div>
+                        <input type="submit" name="enviar" id="enviar" value="enviar dados">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
+        
