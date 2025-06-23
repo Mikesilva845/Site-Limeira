@@ -1,0 +1,219 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+
+body{
+    font-family:'Poppins', sans-serif;
+    
+}
+
+
+main{
+    width: 1200px;
+    margin: 0 auto 0 auto; 
+}
+
+header{
+    display: flex;
+
+    h2{
+        line-height: 0.8;
+        position: relative;top: 50px;
+        margin-left: 120px;
+    }
+    img{
+        position: relative;bottom: 30px;
+        width: 120px;
+    }
+}
+
+.destaque{
+    background-color: #2179a0;
+    position: relative;bottom: 39px;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    gap: 50px;
+    
+    a{
+        background-color: #fff  ;
+        padding: 5px;
+        border-radius: 5px;
+        color:#2179a0;
+        text-decoration: none;    
+        
+    }
+}
+
+.grid-home-1{
+    display: flex;
+    justify-content: start;
+    gap: 1.5rem;
+    margin-top: 25px;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.grid-home-2{
+    display: flex;
+    justify-content: end;
+    gap: 1.5rem;
+    margin-top: 25px;
+
+    h2{
+        text-align: center;
+    }
+}
+
+.redes-sociais{
+    margin-left: 70%;
+    margin-top: 25px;
+    gap: 20px;
+}
+
+.icons{
+    
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 10px;
+    gap: 25px;
+  
+    a{
+        color: white;
+        text-align: center;
+        border-radius: 75%;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+a:hover{
+    transform: translateY(-2px);
+}
+
+.icons a:nth-child(1){
+    background-color: #fd1d1d;
+}
+.icons a:nth-child(2){
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d )
+}
+.icons a:nth-child(3){
+    background-color:#3b5998 
+}
+
+
+.home{
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+    
+
+.text{
+    display: flex ;
+    justify-content: center;
+    margin-bottom: 35px;
+    gap: 30px;  
+    h2{
+        text-align: center;
+    }
+}
+
+.tabela th{
+    border-bottom: 2px solid #aaa ;
+    padding: 7px;
+    text-align: center;
+}
+
+.tabela td{
+
+    border-bottom : 2px solid #ccc;
+    padding: 7px;
+}
+
+.tabela th:nth-child(1),
+.tabela td:nth-child(1){
+    text-align: start;
+}
+
+.tabela th:nth-child(2),
+.tabela td:nth-child(2){
+    text-align: center;
+}
+
+.tabela th:nth-child(3),
+.tabela td:nth-child(3){
+    text-align: end;
+}
+
+
+.tabelas{
+
+    h2{
+        text-align: center;
+    }
+  
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 70px;              
+}
+
+
+.tabela2 th{
+    border-bottom: 2px solid #aaa ;
+    padding: 7px;
+    text-align: center;
+}
+
+.tabela2 td{
+
+    border-bottom : 2px solid #ccc;
+    padding: 7px;
+}
+
+.tabela2 th:nth-child(1),
+.tabela2 td:nth-child(1){
+    text-align: start;
+}
+
+.tabela2 th:nth-child(2),
+.tabela2 td:nth-child(2){
+    text-align: center;
+}
+
+.tabela2 th:nth-child(3),
+.tabela2 td:nth-child(3){
+    text-align: end;
+}
+
+.tabela2 th:nth-child(4),
+.tabela2 td:nth-child(4){
+    text-align: end;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.texto{
+    text-align: start;
+    margin-top: 50px;
+
+    li{
+        margin-top: 8px;
+        margin-left: 18px;
+    }
+}
+
